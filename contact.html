@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>联系我们 — 广州拓算智云科技有限公司</title>
+<meta name="description" content="联系广州拓算智云科技有限公司，获取 Azure、Azure OpenAI 与 AI 解决方案的免费咨询与服务报价。">
+<meta name="keywords" content="联系我们,免费咨询,AI方案报价,联系方式">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/png" href="assets/images/tuosuan-mark.png">
+<script src="assets/js/theme-init.js"></script>
+</head>
+<body>
+
+<!-- ============ 导航 ============ -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html">
+      <img class="brand__logo" src="assets/images/tuosuan-mark.png" alt="拓算智云 Logo">
+      <span class="brand__text">
+        <span class="brand__name">拓算智云</span>
+      </span>
+    </a>
+
+    <nav class="nav__menu">
+      <a class="nav__link" href="index.html">首页</a>
+      <a class="nav__link" href="products.html">产品服务</a>
+      <a class="nav__link" href="solutions.html">解决方案</a>
+      <a class="nav__link" href="cases.html">客户案例</a>
+      <a class="nav__link" href="about.html">关于我们</a>
+      <a class="nav__link" href="contact.html">联系我们</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="btn btn--primary btn--sm" href="contact.html">免费咨询</a>
+      <button class="theme-toggle" type="button" aria-label="切换主题" aria-pressed="false">
+        <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"></circle>
+          <path d="M12 2.5v2.4M12 19.1v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7"></path>
+        </svg>
+        <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"></path>
+        </svg>
+      </button>
+      <button class="nav__burger" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 页头 ============ -->
+<section class="page-head">
+  <div class="wrap">
+    <div class="page-head__inner">
+      <nav class="crumbs">
+        <a href="index.html">首页</a>
+        <span class="sep">/</span>
+        <span>联系我们</span>
+      </nav>
+      <span class="eyebrow">Contact Us</span>
+      <h1>留下需求，<span class="grad-text">1 个工作日内联系您</span></h1>
+      <p>
+        无论是技术方案咨询、产品选型还是合作洽谈，都可以从这里开始。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 联系区 ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-2" style="gap:38px;align-items:start;">
+
+      <!-- 表单 -->
+      <div class="reveal">
+        <form id="contact-form" class="card" style="padding:34px 32px;" novalidate>
+          <h3 style="margin-bottom:6px;font-size:22px;">需求登记</h3>
+          <p style="color:var(--text-2);font-size:14.5px;margin-bottom:24px;">
+            填写后我们的技术顾问会尽快与您取得联系。
+          </p>
+
+          <div class="form-grid">
+            <div class="field">
+              <label>姓名 <i>*</i></label>
+              <input type="text" name="name" placeholder="您的称呼" required>
+            </div>
+            <div class="field">
+              <label>公司名称 <i>*</i></label>
+              <input type="text" name="company" placeholder="所在企业" required>
+            </div>
+            <div class="field">
+              <label>联系电话 <i>*</i></label>
+              <input type="tel" name="phone" placeholder="手机号码" required>
+            </div>
+            <div class="field">
+              <label>邮箱</label>
+              <input type="email" name="email" placeholder="name@company.com">
+            </div>
+            <div class="field field--full">
+              <label>需求类型</label>
+              <select name="type">
+                <option value="">请选择</option>
+                <option>Azure 云资源 / 上云迁移</option>
+                <option>Azure OpenAI 接入</option>
+                <option>Azure AI 语音</option>
+                <option>Microsoft 365</option>
+                <option>AI 数字人 / 大模型</option>
+                <option>行业解决方案</option>
+                <option>其他 / 综合咨询</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label>需求描述</label>
+              <textarea name="message" placeholder="请简要描述您的业务场景、当前痛点和期望达成的目标……"></textarea>
+            </div>
+          </div>
+
+          <button class="btn btn--primary" type="submit" style="width:100%;margin-top:22px;">
+            提交需求 <span class="arrow">→</span>
+          </button>
+          <p class="form-note">我们承诺仅将您的信息用于本次咨询，不会向第三方泄露。</p>
+
+          <div class="form-ok">✓ 已收到您的需求！我们的顾问会在 1 个工作日内与您联系。</div>
+        </form>
+      </div>
+
+      <!-- 联系方式 -->
+      <div class="reveal" data-delay="120">
+        <div class="info-card" style="margin-bottom:22px;">
+          <h3>直接联系我们</h3>
+          <p>工作时间外留言，我们会在下一个工作日优先回复。</p>
+
+          <ul class="info-list">
+            <li>
+              <span class="info-list__ico">📍</span>
+              <span>
+                <b>公司地址</b>
+                广州市黄埔区南云五路11号光正科技产业园内研发中心C栋218自编01
+              </span>
+            </li>
+            <li>
+              <span class="info-list__ico">📞</span>
+              <span>
+                <b>咨询电话</b>
+                17329936141
+              </span>
+            </li>
+            <li>
+              <span class="info-list__ico">✉️</span>
+              <span>
+                <b>商务邮箱</b>
+                <a href="mailto:cs@tszhiyun.com">cs@tszhiyun.com</a>
+              </span>
+            </li>
+            <li>
+              <span class="info-list__ico">🕘</span>
+              <span>
+                <b>服务时间</b>
+                周一至周五 09:00 — 18:00
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card" style="padding:26px 28px;">
+          <h3 style="font-size:17px;margin-bottom:14px;">常见问题</h3>
+
+          <div style="margin-bottom:16px;">
+            <p style="color:var(--text);font-weight:600;font-size:14.5px;margin-bottom:4px;">能不能先小规模试点？</p>
+            <p style="color:var(--text-2);font-size:14px;">可以。我们推荐先小范围试点验证可行性，再逐步扩展，降低投入风险。</p>
+          </div>
+          <div>
+            <p style="color:var(--text);font-weight:600;font-size:14.5px;margin-bottom:4px;">如何计费？</p>
+            <p style="color:var(--text-2);font-size:14px;">按产品与项目分别计费，云资源按量、定制开发按人天，正式合作前提供明细报价单。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 页脚 ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__about">
+        <a class="brand" href="index.html">
+          <img class="brand__logo" src="assets/images/tuosuan-logo-full.png" alt="广州拓算智云科技有限公司 Logo">
+          <span class="brand__text">
+            <span class="brand__name">拓算智云</span>
+          </span>
+        </a>
+        <p>
+          广州拓算智云科技有限公司，微软云数字化 AI 解决方案服务商。以技术创新推动行业发展，为客户创造更大价值，成为值得信赖的长期合作伙伴。
+        </p>
+      </div>
+
+      <div>
+        <h4>产品服务</h4>
+        <ul class="footer__links">
+          <li><a href="products.html">Azure 云服务</a></li>
+          <li><a href="products.html">Azure OpenAI</a></li>
+          <li><a href="products.html">Azure AI 语音</a></li>
+          <li><a href="products.html">Microsoft 365</a></li>
+          <li><a href="products.html">AI 数字人</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>关于我们</h4>
+        <ul class="footer__links">
+          <li><a href="about.html">公司简介</a></li>
+          <li><a href="solutions.html">解决方案</a></li>
+          <li><a href="cases.html">客户案例</a></li>
+          <li><a href="about.html#certs">荣誉资质</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>联系方式</h4>
+        <ul class="footer__contact">
+          <li><i>📍</i><span>广州市黄埔区南云五路11号光正科技产业园内研发中心C栋218自编01</span></li>
+          <li><i>📞</i><span>17329936141</span></li>
+          <li><i>✉️</i><a href="mailto:cs@tszhiyun.com">cs@tszhiyun.com</a></li>
+      <li><i>🌐</i><span>www.tszhiyun.com</span></li>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 广州拓算智云科技有限公司　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2024334639号</a></span>
+      <span>
+        <a href="index.html">隐私政策</a> ·
+        <a href="index.html">服务条款</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="返回顶部">↑</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
