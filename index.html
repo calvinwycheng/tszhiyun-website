@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>广州拓算智云科技有限公司 — 微软云数字化 AI 解决方案服务商</title>
+<meta name="description" content="广州拓算智云科技有限公司致力于成为 AI 行业领先的云服务与人工智能解决方案提供商，专注于微软云服务与 AI 应用落地，助力企业加速数字化转型。">
+<meta name="keywords" content="拓算智云,广州拓算智云科技,Azure 代理,Azure OpenAI,AI 解决方案,微软云,数字化转型">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/png" href="assets/images/tuosuan-mark.png">
+<script src="assets/js/theme-init.js"></script>
+</head>
+<body>
+
+<!-- ============ 导航 ============ -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html">
+      <img class="brand__logo" src="assets/images/tuosuan-mark.png" alt="拓算智云 Logo">
+      <span class="brand__text">
+        <span class="brand__name">拓算智云</span>
+      </span>
+    </a>
+
+    <nav class="nav__menu">
+      <a class="nav__link" href="index.html">首页</a>
+      <a class="nav__link" href="products.html">产品服务</a>
+      <a class="nav__link" href="solutions.html">解决方案</a>
+      <a class="nav__link" href="cases.html">客户案例</a>
+      <a class="nav__link" href="about.html">关于我们</a>
+      <a class="nav__link" href="contact.html">联系我们</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="btn btn--primary btn--sm" href="contact.html">免费咨询</a>
+      <button class="theme-toggle" type="button" aria-label="切换主题" aria-pressed="false">
+        <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"></circle>
+          <path d="M12 2.5v2.4M12 19.1v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7"></path>
+        </svg>
+        <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"></path>
+        </svg>
+      </button>
+      <button class="nav__burger" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="wrap hero__inner">
+    <div class="hero__content">
+      <div class="hero__pill">
+        <span class="dot"></span>
+        Microsoft Cloud &amp; AI Solutions Partner
+      </div>
+
+      <h1>
+        微软云数字化<br>
+        <span class="line2">AI 解决方案服务商</span>
+      </h1>
+
+      <p class="hero__lead">
+        广州拓算智云科技有限公司，致力于成为 AI 行业领先的云服务与人工智能解决方案提供商。我们坚持创新驱动，秉承诚信原则，始终将客户需求放在首位，专注于微软云服务与 AI 场景落地，助力企业加速数字化转型。
+      </p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="products.html">
+          了解产品服务 <span class="arrow">→</span>
+        </a>
+        <a class="btn btn--ghost" href="contact.html">
+          预约技术顾问
+        </a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <b><span data-count="5" data-suffix="+">5+</span></b>
+          <span>年核心团队经验</span>
+        </div>
+        <div class="hero__stat">
+          <b><span data-count="500" data-suffix="+">500+</span></b>
+          <span>企业客户</span>
+        </div>
+        <div class="hero__stat">
+          <b><span data-count="98" data-suffix="%">98%</span></b>
+          <span>交付准确率</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <span class="orb orb--1"></span>
+      <span class="orb orb--2"></span>
+      <span class="orb orb--3"></span>
+
+      <div class="tech-card">
+        <span class="tech-card__ico">✨</span>
+        <span>
+          <b>Azure OpenAI</b>
+          <span>智能对话与内容生成</span>
+        </span>
+      </div>
+      <div class="tech-card">
+        <span class="tech-card__ico">⚡</span>
+        <span>
+          <b>智能算力调度</b>
+          <span>弹性 GPU 资源池</span>
+        </span>
+      </div>
+      <div class="tech-card">
+        <span class="tech-card__ico">🤖</span>
+        <span>
+          <b>AI 智能体</b>
+          <span>自主决策与流程编排</span>
+        </span>
+      </div>
+      <div class="tech-card">
+        <span class="tech-card__ico">🛡️</span>
+        <span>
+          <b>安全合规</b>
+          <span>企业级数据治理</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll">
+    <i></i>
+    Scroll
+  </div>
+</section>
+
+<!-- ============ 核心能力 ============ -->
+<section class="section" id="capability">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Core Capability</span>
+      <h2 class="sec-title">三大<span class="hl">核心能力</span></h2>
+      <p class="sec-desc">
+        从算力底座到智能应用，我们提供覆盖AI全链路的技术能力，让智能化真正落地到业务场景。
+      </p>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="card reveal" data-delay="0">
+        <div class="card__ico">⚡</div>
+        <h3>AI + 云计算</h3>
+        <p>
+          AI+云计算融合智能算法与弹性算力，实现海量数据高效处理、模型快速迭代、智能服务按需供给，赋能全场景应用创新。
+        </p>
+      </article>
+
+      <article class="card reveal" data-delay="120">
+        <div class="card__ico">🤖</div>
+        <h3>AI 智能体</h3>
+        <p>
+          通过多模态数据感知、知识推理与自主决策，结合持续学习与环境交互能力，实现复杂动态规划、跨场景迁移及人机深度协作，推动智能服务、工业自动化等全领域革新。
+        </p>
+      </article>
+
+      <article class="card reveal" data-delay="240">
+        <div class="card__ico">🧩</div>
+        <h3>全栈技术整合专家</h3>
+        <p>
+          精通跨前后端、数据库及云平台技术栈，实现架构设计与模块协同优化，推动技术选型标准化，保障系统高效交付与稳定扩展，支撑业务持续迭代升级。
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 产品服务 ============ -->
+<section class="section section--alt" id="products">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Products &amp; Services</span>
+      <h2 class="sec-title">我们的<span class="hl">产品服务</span></h2>
+      <p class="sec-desc">
+        覆盖云计算、人工智能与协作办公的完整产品矩阵，一套体系满足企业数字化与智能化升级的全部需求。
+      </p>
+    </div>
+
+    <div class="grid grid-3">
+      <a class="card card--link reveal" data-delay="0" href="products.html">
+        <div class="card__ico">☁️</div>
+        <h3>Azure</h3>
+        <p>Azure 是微软推出的云计算平台，超 200 种产品服务，凭安全、灵活及 AI 优势，获 95% 财富 500 强企业信赖。</p>
+        <span class="card__more">了解更多 <span class="arrow">→</span></span>
+      </a>
+
+      <a class="card card--link reveal" data-delay="60" href="products.html">
+        <div class="card__ico">✨</div>
+        <h3>Azure OpenAI</h3>
+        <p>为您提供 Azure OpenAI 的接入服务，可以轻松实现智能客服、内容创作、数据分析等应用场景，模型能力开箱即用。</p>
+        <span class="card__more">了解更多 <span class="arrow">→</span></span>
+      </a>
+
+      <a class="card card--link reveal" data-delay="120" href="products.html">
+        <div class="card__ico">🎙️</div>
+        <h3>Azure AI 语音</h3>
+        <p>高度准确地将语音听录为文本，生成自然风格的文本转语音人声，翻译口语音频，以及在对话中使用说话人辨识。</p>
+        <span class="card__more">了解更多 <span class="arrow">→</span></span>
+      </a>
+
+      <a class="card card--link reveal" data-delay="0" href="products.html">
+        <div class="card__ico">📊</div>
+        <h3>Microsoft 365</h3>
+        <p>将行业领先的桌面应用程序与微软旗下高效的云存储服务 OneDrive 深度集成，为用户打造全方位的数字化工作环境。</p>
+        <span class="card__more">了解更多 <span class="arrow">→</span></span>
+      </a>
+
+      <a class="card card--link reveal" data-delay="60" href="products.html">
+        <div class="card__ico">🎭</div>
+        <h3>AI 数字人</h3>
+        <p>一张照片即可生成数字人视频，支持真人形象订制、真人声音克隆，丰富的模版、模特和声音供选择，快速创作各类讲解视频。</p>
+        <span class="card__more">了解更多 <span class="arrow">→</span></span>
+      </a>
+
+      <a class="card card--link reveal" data-delay="120" href="products.html">
+        <div class="card__ico">🧠</div>
+        <h3>国产 AI 大模型</h3>
+        <p>与文心一言、通义千问、星火等多家领先的国产 AI 大模型企业达成战略合作，为客户提供一站式的国产 AI 大模型服务。</p>
+        <span class="card__more">了解更多 <span class="arrow">→</span></span>
+      </a>
+    </div>
+
+    <div class="reveal" style="text-align:center;margin-top:44px;">
+      <a class="btn btn--ghost" href="products.html">
+        查看全部 9 项产品服务 <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 数据成绩 ============ -->
+<section class="section" id="numbers">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">By the Numbers</span>
+      <h2 class="sec-title">用<span class="hl">数据</span>说话</h2>
+      <p class="sec-desc">持续交付的能力，最终会沉淀成可被验证的数字。</p>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat">
+        <b><span data-count="5" data-suffix="+">5+</span></b>
+        <span>年行业经验</span>
+      </div>
+      <div class="stat">
+        <b><span data-count="100" data-suffix="+">100+</span></b>
+        <span>成功项目</span>
+      </div>
+      <div class="stat">
+        <b><span data-count="500" data-suffix="+">500+</span></b>
+        <span>企业客户</span>
+      </div>
+      <div class="stat">
+        <b><span data-count="100" data-suffix="+">100+</span></b>
+        <span>专业团队成员</span>
+      </div>
+      <div class="stat">
+        <b><span data-count="70" data-suffix="%+">70%+</span></b>
+        <span>客户续费率</span>
+      </div>
+      <div class="stat">
+        <b><span data-count="98" data-suffix="%+">98%+</span></b>
+        <span>交付准确率</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 客户案例 ============ -->
+<section class="section section--alt" id="cases">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Case Studies</span>
+      <h2 class="sec-title">客户<span class="hl">案例</span></h2>
+      <p class="sec-desc">从跨国集团到成长型团队，我们把 AI 能力嵌入真实业务链路。</p>
+    </div>
+
+    <div class="grid grid-4">
+      <article class="case reveal" data-delay="0">
+        <div class="case__top"><span>🌐</span></div>
+        <div class="case__body">
+          <span class="case__tag">多语言互译</span>
+          <h3>国际某跨境物流公司</h3>
+          <p>国际贸易合作越来越频繁，语言障碍成为一个重要问题。拓算智云提供了能快速进行互译的系统功能，提高企业间的沟通效率。</p>
+          <div class="case__metric">
+            <b>8</b><span>大方言区覆盖</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="case reveal" data-delay="90">
+        <div class="case__top"><span>💾</span></div>
+        <div class="case__body">
+          <span class="case__tag">数据迁移落库</span>
+          <h3>国内某知名营销公司</h3>
+          <p>客户在第三方软件中进行业务交流，而大量数据会淹没重要的客户和业务信息。拓算智云自动提取在第三方软件中的重要业务对话进行落库。</p>
+          <div class="case__metric">
+            <b>24h</b><span>全量数据同步</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="case reveal" data-delay="180">
+        <div class="case__top"><span>🎭</span></div>
+        <div class="case__body">
+          <span class="case__tag">AI 数字人</span>
+          <h3>国内某知名旅游集团</h3>
+          <p>为了优化旅游景点体验，拓算智云将数字人和大语言模型结合起来，让数字人与客户进行互动，通过专用大模型回答客户的问题并推荐旅游线路。</p>
+          <div class="case__metric">
+            <b>7×24</b><span>不间断智能讲解</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="case reveal" data-delay="270">
+        <div class="case__top"><span>🎨</span></div>
+        <div class="case__body">
+          <span class="case__tag">AI 大模型</span>
+          <h3>某家纺电商服务公司</h3>
+          <p>客户为家纺企业提供电商图片和视频的服务，然而设计师的成本和时效性较高。拓算智云部署家纺专用大模型，实现文生图和图生视频的能力。</p>
+          <div class="case__metric">
+            <b>72%</b><span>设计效率提升</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="reveal" style="text-align:center;margin-top:44px;">
+      <a class="btn btn--ghost" href="cases.html">
+        查看更多客户案例 <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 荣誉资质 ============ -->
+<section class="section" id="certs">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Certifications</span>
+      <h2 class="sec-title">荣誉<span class="hl">资质</span></h2>
+      <p class="sec-desc">来自平台方与权威机构的认证，是服务能力最直接的证明。</p>
+    </div>
+
+    <div class="certs reveal">
+      <div class="cert">
+        <span class="cert__badge">🏅</span>
+        <span>
+          <b>微软 MCPP 合作伙伴</b>
+          <span>Microsoft Cloud Partner</span>
+        </span>
+      </div>
+      <div class="cert">
+        <span class="cert__badge">🏅</span>
+        <span>
+          <b>CSP 云解决方案提供商</b>
+          <span>Cloud Solution Provider</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 客户评价 ============ -->
+<section class="section section--alt" id="testimonials">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Testimonials</span>
+      <h2 class="sec-title">客户<span class="hl">评价</span></h2>
+      <p class="sec-desc">来自不同行业客户的真实反馈。</p>
+    </div>
+
+    <div class="slider reveal">
+      <div class="slide">
+        <p class="slide__quote">
+          Azure AI 语音的多模态引擎为物流智能客服带来革命性升级。其创新的上下文感知模型支持拟人化情感交互，实测显示语音交互时长提升 63%，客户流失率下降 28%。更突破的是，系统的语音指纹技术仅用 72 小时就完成了覆盖全球 8 大方言区的迁移学习，大幅提升了客服响应效率和服务质量。
+        </p>
+        <div class="slide__by">
+          <span class="slide__avatar">物</span>
+          <span>
+            <b>某跨国物流公司</b>
+            <span>数字化负责人</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="slide">
+        <p class="slide__quote">
+          拓算智云集成的文生图与图生视频能力彻底颠覆了我们的创作范式，在家纺产品设计中实现了 72% 的效率提升。只要输入产品的关键信息，3 秒内即可生成 4K 级设计图。另外 AI 会根据设计的图片自动生成 AI 视频，整体符合客户要求度达到 60% 以上，相信在后续的模型调优下还会有更大的提升空间。
+        </p>
+        <div class="slide__by">
+          <span class="slide__avatar">电</span>
+          <span>
+            <b>某电商服务公司</b>
+            <span>AI 项目经理</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="slide">
+        <p class="slide__quote">
+          作为 AI 医疗影像赛道的初创团队，Microsoft 365 仅用两周就完成了传统需要 6 个月构建的「AI 标注—临床验证—合规交付」全流程数字基座。我们对信息安全的要求极高，这家公司不仅帮我们完美地达到等保要求，还持续提供了监控和培训服务，他们的专业和服务态度给我们留下了深刻印象。
+        </p>
+        <div class="slide__by">
+          <span class="slide__avatar">医</span>
+          <span>
+            <b>某医疗科技创业公司</b>
+            <span>创始人</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="slider__ctrl">
+        <button class="slider__btn slider__btn--prev" type="button" aria-label="上一条">‹</button>
+        <div class="slider__dots">
+          <button class="slider__dot" type="button" aria-label="第 1 条"></button>
+          <button class="slider__dot" type="button" aria-label="第 2 条"></button>
+          <button class="slider__dot" type="button" aria-label="第 3 条"></button>
+        </div>
+        <button class="slider__btn slider__btn--next" type="button" aria-label="下一条">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 服务流程 ============ -->
+<section class="section" id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Service Process</span>
+      <h2 class="sec-title">服务<span class="hl">流程</span></h2>
+      <p class="sec-desc">
+        我们提供覆盖 AI 方案全生命周期的卓越服务，从需求洞察到部署运维，通过严谨的流程设计、深度定制开发与持续效果优化，确保客户获得高效可靠的智能化转型成果。
+      </p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal" data-delay="0">
+        <div class="step__no">01</div>
+        <h4>售前客服咨询</h4>
+        <ul>
+          <li>售前咨询随时在，疑问解答不等待</li>
+          <li>产品详情细说明，需求匹配更精准</li>
+          <li>服务热情又专业，沟通耐心解顾虑</li>
+        </ul>
+      </div>
+
+      <div class="step reveal" data-delay="60">
+        <div class="step__no">02</div>
+        <h4>商务接洽与需求初筛</h4>
+        <ul>
+          <li>商务对接高效启，需求初筛速推进</li>
+          <li>合作意向先探明，基础条件早厘清</li>
+          <li>核心诉求快捕捉，匹配程度初评估</li>
+        </ul>
+      </div>
+
+      <div class="step reveal" data-delay="120">
+        <div class="step__no">03</div>
+        <h4>需求分析与技术验证</h4>
+        <ul>
+          <li>深度解析需求，匹配技术可行性</li>
+          <li>拆解需求逻辑，验证实现路径</li>
+          <li>挖掘潜在需求，论证技术适配性</li>
+        </ul>
+      </div>
+
+      <div class="step reveal" data-delay="180">
+        <div class="step__no">04</div>
+        <h4>合同签订与项目启动</h4>
+        <ul>
+          <li>规范签订地合同，确保权益的明晰</li>
+          <li>启动项目全流程，衔接资源的落地</li>
+          <li>敲定合同的细节，同步项目的执行</li>
+        </ul>
+      </div>
+
+      <div class="step reveal" data-delay="0">
+        <div class="step__no">05</div>
+        <h4>开发与迭代</h4>
+        <ul>
+          <li>高效地开发功能，持续地迭代优化</li>
+          <li>按需求开发落地，高效地升级性能</li>
+          <li>开发时严控质量，优化用户的需求</li>
+        </ul>
+      </div>
+
+      <div class="step reveal" data-delay="60">
+        <div class="step__no">06</div>
+        <h4>测试与验收</h4>
+        <ul>
+          <li>测试并排查问题，严格地确认合规</li>
+          <li>反复地验证性能，最终核定并交付</li>
+          <li>细致地筛查缺陷，严谨地保障质量</li>
+        </ul>
+      </div>
+
+      <div class="step reveal" data-delay="120">
+        <div class="step__no">07</div>
+        <h4>交付与部署</h4>
+        <ul>
+          <li>全面测试功能场景，保障产品质量</li>
+          <li>严格验收标准，确保交付符合需求</li>
+          <li>多维度测试验证，推动验收和落地</li>
+        </ul>
+      </div>
+
+      <div class="step reveal" data-delay="180">
+        <div class="step__no">08</div>
+        <h4>运维与持续优化</h4>
+        <ul>
+          <li>稳定运维保障系统，持续优化性能</li>
+          <li>实时监控运维状态，迭代优化体验</li>
+          <li>运维护航系统运行，动态优化升级</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 愿景 / 使命 ============ -->
+<section class="section section--alt" id="vision">
+  <div class="wrap">
+    <div class="vm">
+      <div class="vm__item reveal">
+        <span class="vm__label">愿 景</span>
+        <h3>成为中国企业 AI 数字化转型战略伙伴</h3>
+        <p>Become a strategic partner for AI digital transformation of chinese enterprises</p>
+      </div>
+
+      <div class="vm__item reveal" data-delay="120">
+        <span class="vm__label">使 命</span>
+        <h3>成就中国企业实现数字化转型</h3>
+        <p>Empower chinese enterprises to achieve digital transformation</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="cta-bar reveal">
+      <div>
+        <h2>准备好开启您的 AI 转型了吗？</h2>
+        <p>留下您的需求，我们的技术顾问会在 1 个工作日内与您联系。</p>
+      </div>
+      <a class="btn btn--primary" href="contact.html">
+        立即联系我们 <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 页脚 ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__about">
+        <a class="brand" href="index.html">
+          <img class="brand__logo" src="assets/images/tuosuan-logo-full.png" alt="广州拓算智云科技有限公司 Logo">
+          <span class="brand__text">
+            <span class="brand__name">拓算智云</span>
+          </span>
+        </a>
+        <p>
+          广州拓算智云科技有限公司，微软云数字化 AI 解决方案服务商。以技术创新推动行业发展，为客户创造更大价值，成为值得信赖的长期合作伙伴。
+        </p>
+      </div>
+
+      <div>
+        <h4>产品服务</h4>
+        <ul class="footer__links">
+          <li><a href="products.html">Azure 云服务</a></li>
+          <li><a href="products.html">Azure OpenAI</a></li>
+          <li><a href="products.html">Azure AI 语音</a></li>
+          <li><a href="products.html">Microsoft 365</a></li>
+          <li><a href="products.html">AI 数字人</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>关于我们</h4>
+        <ul class="footer__links">
+          <li><a href="about.html">公司简介</a></li>
+          <li><a href="solutions.html">解决方案</a></li>
+          <li><a href="cases.html">客户案例</a></li>
+          <li><a href="about.html#certs">荣誉资质</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>联系方式</h4>
+        <ul class="footer__contact">
+          <li><i>📍</i><span>广州市黄埔区南云五路11号光正科技产业园内研发中心C栋218自编01</span></li>
+          <li><i>📞</i><span>17329936141</span></li>
+          <li><i>✉️</i><a href="mailto:cs@tszhiyun.com">cs@tszhiyun.com</a></li>
+      <li><i>🌐</i><span>www.tszhiyun.com</span></li>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 广州拓算智云科技有限公司　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2024334639号</a></span>
+      <span>
+        <a href="index.html">隐私政策</a> ·
+        <a href="index.html">服务条款</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="返回顶部">↑</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
