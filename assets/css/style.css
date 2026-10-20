@@ -1552,6 +1552,35 @@ select {
   color: var(--cyan);
 }
 
+.footer__legal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.footer__filings {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.footer__filing {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.footer__filing img {
+  display: block;
+  width: 18px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 /* ---------------- 返回顶部 ---------------- */
 .to-top {
   position: fixed;
@@ -2094,6 +2123,10 @@ select {
   .footer__bottom {
     flex-direction: column;
     text-align: center;
+  }
+
+  .footer__filings {
+    justify-content: center;
   }
 }
 
